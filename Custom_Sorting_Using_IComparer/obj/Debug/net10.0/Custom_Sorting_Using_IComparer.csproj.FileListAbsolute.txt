@@ -1,0 +1,15 @@
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\bin\Debug\net10.0\Custom_Sorting_Using_IComparer.exe
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\bin\Debug\net10.0\Custom_Sorting_Using_IComparer.deps.json
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\bin\Debug\net10.0\Custom_Sorting_Using_IComparer.runtimeconfig.json
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\bin\Debug\net10.0\Custom_Sorting_Using_IComparer.dll
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\bin\Debug\net10.0\Custom_Sorting_Using_IComparer.pdb
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\obj\Debug\net10.0\Custom_Sorting_Using_IComparer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\obj\Debug\net10.0\Custom_Sorting_Using_IComparer.AssemblyInfoInputs.cache
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\obj\Debug\net10.0\Custom_Sorting_Using_IComparer.AssemblyInfo.cs
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\obj\Debug\net10.0\Custom_Sorting_Using_IComparer.csproj.CoreCompileInputs.cache
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\obj\Debug\net10.0\Custom_Sorting_Using_IComparer.sourcelink.json
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\obj\Debug\net10.0\Custom_Sorting_Using_IComparer.dll
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\obj\Debug\net10.0\refint\Custom_Sorting_Using_IComparer.dll
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\obj\Debug\net10.0\Custom_Sorting_Using_IComparer.pdb
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\obj\Debug\net10.0\Custom_Sorting_Using_IComparer.genruntimeconfig.cache
+C:\Users\singh\Desktop\csharp\Topbrains\Custom_Sorting_Using_IComparer\obj\Debug\net10.0\ref\Custom_Sorting_Using_IComparer.dll
