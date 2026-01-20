@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Custom_Sorting_Using_IComparer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ddc90cd55b48471ae455f0991152c53f711e837")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23ed3bdfa859c98aec38715bad05f78097901ee4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Custom_Sorting_Using_IComparer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Custom_Sorting_Using_IComparer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

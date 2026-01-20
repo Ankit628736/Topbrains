@@ -13,7 +13,7 @@ public class MarksComparer : IComparer<Student>
         int res = s2.Marks.CompareTo(s1.Marks);
         if(res == 0)
         {
-            return s1.Age.CompareTo(s1.Age);
+            return s1.Age.CompareTo(s2.Age);
         }
         return res;
     }
