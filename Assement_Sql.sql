@@ -1,4 +1,7 @@
-use lpudb;
+DROP DATABASE IF EXISTS capgeminiassess;
+
+CREATE DATABASE CAPGEMINIaSSESS;
+use capgeminiassess;
 CREATE TABLE Sales_Raw
 (
     OrderID INT primary Key,
@@ -32,7 +35,6 @@ create table Customers (
     CustomerPhone VARCHAR(20),
     CustomerCity VARCHAR(50) );
     
-    
 CREATE TABLE SalesPersons (
     SalesPersonID INT PRIMARY KEY AUTO_INCREMENT,
     SalesPersonName VARCHAR(100)
@@ -45,8 +47,6 @@ CREATE TABLE Products (
     UnitPrice DECIMAL(10,2)
 );
 
-
-
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
     OrderDate DATE,
@@ -55,8 +55,6 @@ CREATE TABLE Orders (
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
     FOREIGN KEY (SalesPersonID) REFERENCES SalesPersons(SalesPersonID)
 );
-
-
 
 CREATE TABLE OrderItems (
     OrderItemID INT PRIMARY KEY AUTO_INCREMENT,
@@ -68,12 +66,10 @@ CREATE TABLE OrderItems (
     FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
 );
 
-
-
 WITH OrderTotals AS (
     SELECT
-        sr.OrderID,
-        SUM(q.qty * p.price) AS TotalSales
+	sr.OrderID,
+	SUM(q.qty * p.price) AS TotalSales
     FROM Sales_Raw sr
     JOIN JSON_TABLE(
         CONCAT('[', sr.Quantities, ']'),
@@ -87,73 +83,48 @@ WITH OrderTotals AS (
 )
 SELECT OrderID, TotalSales
 FROM (
-    SELECT *,
-           DENSE_RANK() OVER (ORDER BY TotalSales DESC) AS rnk
-    FROM OrderTotals
+SELECT *,
+DENSE_RANK() OVER (ORDER BY TotalSales DESC) AS rnk
+FROM OrderTotals
 ) t
 WHERE rnk = 3;
 
-
-
-
-
-
-
-
-
-
-
 SELECT
-    sr.SalesPerson,
-    SUM(q.qty * p.price) AS TotalSales
+sr.SalesPerson,
+SUM(q.qty * p.price) AS TotalSales
 FROM Sales_Raw sr
 JOIN JSON_TABLE(
-        CONCAT('[', sr.Quantities, ']'),
-        '$[*]' COLUMNS (qty INT PATH '$')
-     ) q
+	CONCAT('[', sr.Quantities, ']'),
+	'$[*]' COLUMNS (qty INT PATH '$')
+) q
 JOIN JSON_TABLE(
-        CONCAT('[', sr.UnitPrices, ']'),
-        '$[*]' COLUMNS (price INT PATH '$')
-     ) p
+	CONCAT('[', sr.UnitPrices, ']'),
+	'$[*]' COLUMNS (price INT PATH '$')
+) p
 GROUP BY sr.SalesPerson
 HAVING SUM(q.qty * p.price) > 60000;
 
-
-
-
-
-
-
-
 WITH CustomerTotals AS (
     SELECT 
-        sr.CustomerName,
-        SUM(q.qty * p.price) AS TotalSpent
+	sr.CustomerName,
+	SUM(q.qty * p.price) AS TotalSpent
     FROM Sales_Raw sr
     JOIN JSON_TABLE(CONCAT('[', sr.Quantities, ']'),
-                    '$[*]' COLUMNS (qty INT PATH '$')) q
+		'$[*]' COLUMNS (qty INT PATH '$')) q
     JOIN JSON_TABLE(CONCAT('[', sr.UnitPrices, ']'),
-                    '$[*]' COLUMNS (price INT PATH '$')) p
+		'$[*]' COLUMNS (price INT PATH '$')) p
     GROUP BY sr.CustomerName
 )
-SELECT *
-FROM CustomerTotals
+SELECT * FROM CustomerTotals
 WHERE TotalSpent > (SELECT AVG(TotalSpent) FROM CustomerTotals);
 
-
-
-
-
-
 INSERT INTO Sales_Raw VALUES
-(106, 'Amit Singh', '2026-01-08', '9876501234', 'Delhi', 'Laptop', '1', '55000', 'Suresh');
-
+(106, '2026-01-08', 'Amit Singh', '9876501234',
+ 'Delhi', 'Laptop', '1', '55000', 'Suresh');
 
 SELECT
-    UPPER(CustomerName) AS CustomerName,
-    MONTH(STR_TO_DATE(OrderDate, '%Y-%m-%d')) AS OrderMonth
+UPPER(CustomerName) AS CustomerName,
+MONTH(STR_TO_DATE(OrderDate, '%Y-%m-%d')) AS OrderMonth
 FROM Sales_Raw
-WHERE
-    YEAR(STR_TO_DATE(OrderDate, '%Y-%m-%d')) = 2026
-    AND MONTH(STR_TO_DATE(OrderDate, '%Y-%m-%d')) = 1;
-
+WHERE YEAR(STR_TO_DATE(OrderDate, '%Y-%m-%d')) = 2026
+AND MONTH(STR_TO_DATE(OrderDate, '%Y-%m-%d')) = 1;
