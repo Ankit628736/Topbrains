@@ -1,0 +1,15 @@
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\bin\Debug\net10.0\Dictionary_Lookup.exe
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\bin\Debug\net10.0\Dictionary_Lookup.deps.json
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\bin\Debug\net10.0\Dictionary_Lookup.runtimeconfig.json
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\bin\Debug\net10.0\Dictionary_Lookup.dll
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\bin\Debug\net10.0\Dictionary_Lookup.pdb
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\obj\Debug\net10.0\Dictionary_Lookup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\obj\Debug\net10.0\Dictionary_Lookup.AssemblyInfoInputs.cache
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\obj\Debug\net10.0\Dictionary_Lookup.AssemblyInfo.cs
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\obj\Debug\net10.0\Dictionary_Lookup.csproj.CoreCompileInputs.cache
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\obj\Debug\net10.0\Dictionary_Lookup.sourcelink.json
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\obj\Debug\net10.0\Dictionary_Lookup.dll
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\obj\Debug\net10.0\refint\Dictionary_Lookup.dll
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\obj\Debug\net10.0\Dictionary_Lookup.pdb
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\obj\Debug\net10.0\Dictionary_Lookup.genruntimeconfig.cache
+C:\Users\singh\Desktop\csharp\Topbrains\Dictionary_Lookup\obj\Debug\net10.0\ref\Dictionary_Lookup.dll
