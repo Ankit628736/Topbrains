@@ -1,0 +1,15 @@
+C:\Users\singh\Desktop\csharp\Topbrains\string\bin\Debug\net10.0\string.exe
+C:\Users\singh\Desktop\csharp\Topbrains\string\bin\Debug\net10.0\string.deps.json
+C:\Users\singh\Desktop\csharp\Topbrains\string\bin\Debug\net10.0\string.runtimeconfig.json
+C:\Users\singh\Desktop\csharp\Topbrains\string\bin\Debug\net10.0\string.dll
+C:\Users\singh\Desktop\csharp\Topbrains\string\bin\Debug\net10.0\string.pdb
+C:\Users\singh\Desktop\csharp\Topbrains\string\obj\Debug\net10.0\string.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\singh\Desktop\csharp\Topbrains\string\obj\Debug\net10.0\string.AssemblyInfoInputs.cache
+C:\Users\singh\Desktop\csharp\Topbrains\string\obj\Debug\net10.0\string.AssemblyInfo.cs
+C:\Users\singh\Desktop\csharp\Topbrains\string\obj\Debug\net10.0\string.csproj.CoreCompileInputs.cache
+C:\Users\singh\Desktop\csharp\Topbrains\string\obj\Debug\net10.0\string.sourcelink.json
+C:\Users\singh\Desktop\csharp\Topbrains\string\obj\Debug\net10.0\string.dll
+C:\Users\singh\Desktop\csharp\Topbrains\string\obj\Debug\net10.0\refint\string.dll
+C:\Users\singh\Desktop\csharp\Topbrains\string\obj\Debug\net10.0\string.pdb
+C:\Users\singh\Desktop\csharp\Topbrains\string\obj\Debug\net10.0\string.genruntimeconfig.cache
+C:\Users\singh\Desktop\csharp\Topbrains\string\obj\Debug\net10.0\ref\string.dll
